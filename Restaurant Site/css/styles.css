@@ -1,8 +1,136 @@
-body {
-    font-size: 16px;
-    color: #fff;
-    background-color: #aa297f;
-    font-family: 'Oxygen', sans-serif;
-    
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('/images/1.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 
 }
+
+
+body {
+    font-size: 16px;
+    color: rgb(175, 165, 165);
+    
+    font-family: 'Oxygen', sans-serif;
+    min-height: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(175, 165, 165);
+    padding: 0 8px;
+    position: relative;
+}
+
+.nav ul li a::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(255, 255, 255) ;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -7px;
+    transition: 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #fff;
+}
+
+.nav ul li a:hover::after {
+    width: 100%;
+
+}
+
+header {
+    background-color: #320e0e;
+    overflow: hidden;
+    height: 70px;
+}
+
+  img {
+    width: 29%;
+}
+
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    margin-top: 7px;
+    margin-bottom: 5px;
+
+    align-items: center;
+}
+
+.red {
+    background-color: #462020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2 / 4;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+.blue {
+    background-color: #462020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 4 / 6;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.green {
+    background-color: #462020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2 / 4;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.purple {
+    background-color: #462020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 4 / 6;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 200px;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-gap: 5px;  
+    padding: 5px;
+}
+
+
