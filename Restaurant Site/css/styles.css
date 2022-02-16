@@ -32,6 +32,9 @@ body {
     color: rgb(175, 165, 165);
     padding: 0 8px;
     position: relative;
+    text-shadow: 3px -3px 6px rgba(206, 178, 178, 0.486);
+    text-transform: uppercase;
+    margin-right: 20px;
 }
 
 .nav ul li a::after {
@@ -54,24 +57,27 @@ body {
 
 }
 
-header {
-    background-color: #320e0e;
-    overflow: hidden;
-    height: 10vh;
-}
-
   img {
+    height: 100%;
     width: 29%;
 }
 
 
 .nav {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-top: 7px;
+    
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));     */
     margin-bottom: 5px;
-
+    background-color: #320e0e;
     align-items: center;
+    width: 100vw;
+}
+
+#navlogo {
+    width: 45vw;
+    padding-top: 9px;
+    padding-bottom: 3px;
 }
 
 .red {
