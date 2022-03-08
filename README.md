@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @israksadi28 (Israk Ahmed)
 - 👀 I’m interested in ... Front End Development
-- 🌱 I’m currently learning ... React.js
 - 📫 How to reach me ... israksadi28@gmail.com
 
 <!---
