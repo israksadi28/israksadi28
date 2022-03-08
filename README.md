@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @israksadi28 (Israk Ahmed)
 - 👀 I’m interested in ... Front End Development
+- ✨ I'm well versed in HTML5, CSS3 & JS (ES6+)
 - 📫 How to reach me ... israksadi28@gmail.com
 
 <!---
